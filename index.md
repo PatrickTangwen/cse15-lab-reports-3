@@ -68,7 +68,7 @@ Using a different word `less -pHotels written_2/travel_guides/berlitz1/HandRIsta
 
 From the above output, 'less -p' will display the relative content which contains the first word which matches the pattern after the `p`. You should notice that the pattern match is case-sensitive.<br> 
 
-For example, I type `less -photels written_2/travel_guides/berlitz1/HandRIstanbul.txt`
+For example, when I type `less -photels written_2/travel_guides/berlitz1/HandRIstanbul.txt`
 ![9056b5aaa3f9ef167f74b763f349d19](https://user-images.githubusercontent.com/102566928/218377627-b081aaf3-94c9-46c7-87b5-4aff83f39df8.png)
 
 The above command will give the highlight of the "hotel" in a different location since its first letter "h" is not capitalized.
