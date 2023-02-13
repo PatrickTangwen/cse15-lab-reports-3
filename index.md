@@ -142,7 +142,7 @@ When enter `less -M written_2/travel_guides/berlitz1/HandRIbiza.txt`, the inform
         ✪less than 5,000 ptas.
 written_2/travel_guides/berlitz1/HandRIbiza.txt lines 2-15/20 87%
 ```
-The `written_2/travel_guides/berlitz1/HandRIbiza.txt lines 2-15/20 87%` is the information provided by the `-M` option.<br>
+Here, `written_2/travel_guides/berlitz1/HandRIbiza.txt lines 2-15/20 87%` is the information provided by the `-M` option.<br>
 
 Another example is `less -M written_2/non-fiction/OUP/Berk/ch2.txt`:
 ```
@@ -151,3 +151,6 @@ A similar view permeates traditional classrooms, where an individualistic value 
 This emphasis on independent accomplishment is not broadly accepted around the world. Indeed, adults in some non-Western cultures regard American parents as rather merciless in pushing their young children toward independence—for example, when they insist that infants sleep alone rather than with their parents, or when they take pleasure in the earliest possible mastery of motor skills, such as crawling and walking, long before the child has acquired the reasoning powers to avoid steep stai
 written_2/non-fiction/OUP/Berk/ch2.txt lines 2-7/248 2%
 ```
+Here, `written_2/non-fiction/OUP/Berk/ch2.txt lines 2-7/248 2%` is the information provided by the `-M` option.<br>
+
+`-M` option is useful when the user need to know the current progress of reading, and user is able to know the current line number by just looking the information on the bottom.
