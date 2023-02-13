@@ -1,7 +1,7 @@
 # CSE15L Lab Reports 3
 In this lab report, I will demonstrate `less` command with its command-line options.<br>
 
-The `less` command can show the content of a file in the terminal.Using the basic `less` command without any options, it will temporarily take over your terminal and give a interaction window for the users to scroll up and down. To quit, just type `q` and then it will get back to the normal terminal. When using options,it can help users to navigate the content of a file in different ways.<br><br> 
+The `less` command can show the content of a file in the terminal.Using the basic `less` command without any options, it will temporarily take over your terminal and give a interaction window for the users to scroll up and down. To quit, just type `q` and then it will get back to the normal terminal. When using options,it can help users to navigate the content of a file in different ways.<br>
 
 Below I will demonstrate the differnet opitons with input command and its output.<br>
 
