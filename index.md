@@ -59,7 +59,7 @@ From the above output, it's clear to see that `less -N` will display the content
 **Opition 2** `less -p`<br>
 `less -p` will highlight the words which match the given pattern follow by the p. <br>
 
-Put `less -pnot  written_2/travel_guides/berlitz1/HandRIbiza.txt` in the terminal, the output will be:
+Put `less -poffer  written_2/travel_guides/berlitz1/HandRIbiza.txt` in the terminal, the output will be:
 
 ![a14316fb44fa69704190416c06c4cc8](https://user-images.githubusercontent.com/102566928/218374676-ea167caa-c8cb-4395-8131-1b9d021004e6.png)
 
@@ -124,8 +124,30 @@ dressing up
 
 Architecture is hard to define. Goethe called it music frozen in space, which, while it captures a sense of rhythm, is too one-dimensional. And it relegates the mother of the arts to an inferior position; just as well to describe music as melted architecture. Nietzsche believed that architecture reflected his pride, man’s triumph over gravity, and his will to power. This notion applies to many buildings, from Gothic cathedrals to skyscrapers, but it is too, well, Nietzschean. The British master Edwin Lutyens referred to architecture as a sort of play: “In architecture, Palladio is the game!” Le Corbusier described his art as “the masterly, correct and magnificent play of masses brought together in light,” which is a good description of one of his own buildings. I am partial to Sir Henry Wotton’s definition. Wotton, who lived a long time in Venice and was a lover of architecture though not an architect, published a treatise on the subject in 1642. “In Architecture, as in all other Operative Arts, the end must direct the Operation,” he wrote. “The end is to build well. Well-building hath three conditions: Commoditie, Firmeness, and Delight.”
 ```
-Thus, we can see using `-s` option help the user to save much more spaces by removing the duplicate blank lines, which is useful when user want to the screen to display more contents.
+Thus, we can see using `-s` option help the user to save much more spaces by removing the duplicate blank lines, which is useful when user want the screen to display more contents.
 
 **Opition 4** `less -M`<br>
-`less -M` will display the reading statistics when the user is reading the file such as current line number and percentage of content being displayed
-When enter `less -M written_2/travel_guides/berlitz1/HandRIbiza.txt`, the information 
+`less -M` will display the reading statistics when the user is reading the file such as current line number and percentage of content being read
+When enter `less -M written_2/travel_guides/berlitz1/HandRIbiza.txt`, the information will be displayed on the bottom.
+```
+        Recommended Hotels
+        The establishments listed below offer a cross-section of
+        local restaurants, and should convince you that not everything on the
+        island comes with chips (french fries).
+        The star rating in brackets after each entry refers to the
+        offfical government rating system.
+        As a basic guide, the symbols we use indicate what you can
+        expect to pay for a three-course meal for two, excluding wine, tax and
+        tip. Drinks will add considerably to the final bill.
+        ✪less than 5,000 ptas.
+written_2/travel_guides/berlitz1/HandRIbiza.txt lines 2-15/20 87%
+```
+The `written_2/travel_guides/berlitz1/HandRIbiza.txt lines 2-15/20 87%` is the information provided by the `-M` option.<br>
+
+Another example is `less -M written_2/non-fiction/OUP/Berk/ch2.txt`:
+```
+Talia and Jim’s fear of helping 7-year-old Anselmo with his homework, lest they create a dependent, immature child, is a peculiarly Western—and profoundly American—preoccupation. American middle-class parents typically regard young children as dependent beings who must be urged toward independence. In response to researchers’ queries, they frequently say that babies should be trained to be self-reliant from the ﬁrst few months.1 Consequently, they place a high value on children’s learning and doing on their own. Repeatedly relying on others for assistance is construed as weakness, uncertainty, and lack of capacity. In keeping with this view, many American parents worry that if their children seek help, they may become dependent.
+A similar view permeates traditional classrooms, where an individualistic value system prevails. Children must “do their own work.” In the most intensely individualistic of these settings, conferring with your neighbor is worse than dependency; it is cheating, and teachers go so far as to set up barriers between pupils, such as upright books and cardboard screens, to prevent it.
+This emphasis on independent accomplishment is not broadly accepted around the world. Indeed, adults in some non-Western cultures regard American parents as rather merciless in pushing their young children toward independence—for example, when they insist that infants sleep alone rather than with their parents, or when they take pleasure in the earliest possible mastery of motor skills, such as crawling and walking, long before the child has acquired the reasoning powers to avoid steep stai
+written_2/non-fiction/OUP/Berk/ch2.txt lines 2-7/248 2%
+```
