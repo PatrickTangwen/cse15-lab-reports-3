@@ -63,12 +63,12 @@ Put `less -poffer  written_2/travel_guides/berlitz1/HandRIbiza.txt` in the termi
 
 ![a14316fb44fa69704190416c06c4cc8](https://user-images.githubusercontent.com/102566928/218374676-ea167caa-c8cb-4395-8131-1b9d021004e6.png)
 
-Using a different file `less -pHotles  written_2/travel_guides/berlitz1/IntroFrance.txt`, the output will be:
+Using a different word `less -pHotels written_2/travel_guides/berlitz1/HandRIstanbul.txt`, the output will be:
 ![f05aab37bfbccd9a18e88e36a01276e](https://user-images.githubusercontent.com/102566928/218375130-9ca50306-d3b6-4d76-ab9c-aa3bb4f8b8fc.png)<br>
 
 From the above output, 'less -p' will display the relative content which contains the first word which matches the pattern after the `p`. You should notice that the pattern match is case-sensitive.<br> 
 
-For example, I type `less -photles  written_2/travel_guides/berlitz1/IntroFrance.txt`
+For example, I type `less -photels written_2/travel_guides/berlitz1/HandRIstanbul.txt`
 ![9056b5aaa3f9ef167f74b763f349d19](https://user-images.githubusercontent.com/102566928/218377627-b081aaf3-94c9-46c7-87b5-4aff83f39df8.png)
 
 The above command will give the highlight of the "hotel" in a different location since its first letter "h" is not capitalized.
