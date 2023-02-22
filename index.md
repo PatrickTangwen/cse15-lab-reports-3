@@ -53,7 +53,7 @@ Using a different file `less -N  written_2/travel_guides/berlitz1/HandRIbiza.txt
 (END)
 ```
 From the above output, it's clear to see that `less -N` will display the content of file line by line with its own line number. It's useful when the user want to look at a specific line by providing the line number for the reader to nagivate the wanted line.
-<br>[reference]https://phoenixnap.com/kb/less-command-in-linux#ftoc-heading-7
+<br>[source url](https://phoenixnap.com/kb/less-command-in-linux#ftoc-heading-7)
 <br>
 <br>
 
@@ -73,7 +73,7 @@ For example, when I type `less -photels written_2/travel_guides/berlitz1/HandRIs
 ![9056b5aaa3f9ef167f74b763f349d19](https://user-images.githubusercontent.com/102566928/218377627-b081aaf3-94c9-46c7-87b5-4aff83f39df8.png)
 
 The above command will give the highlight of the "hotel" in a different location since its first letter "h" is not capitalized.
-<br>[reference]https://phoenixnap.com/kb/less-command-in-linux#ftoc-heading-7
+<br>[source url](https://phoenixnap.com/kb/less-command-in-linux#ftoc-heading-7)
 <br>
 <br>
 
@@ -129,7 +129,7 @@ dressing up
 Architecture is hard to define. Goethe called it music frozen in space, which, while it captures a sense of rhythm, is too one-dimensional. And it relegates the mother of the arts to an inferior position; just as well to describe music as melted architecture. Nietzsche believed that architecture reflected his pride, man’s triumph over gravity, and his will to power. This notion applies to many buildings, from Gothic cathedrals to skyscrapers, but it is too, well, Nietzschean. The British master Edwin Lutyens referred to architecture as a sort of play: “In architecture, Palladio is the game!” Le Corbusier described his art as “the masterly, correct and magnificent play of masses brought together in light,” which is a good description of one of his own buildings. I am partial to Sir Henry Wotton’s definition. Wotton, who lived a long time in Venice and was a lover of architecture though not an architect, published a treatise on the subject in 1642. “In Architecture, as in all other Operative Arts, the end must direct the Operation,” he wrote. “The end is to build well. Well-building hath three conditions: Commoditie, Firmeness, and Delight.”
 ```
 Thus, we can see using `-s` option help the user to save much more spaces by removing the duplicate blank lines, which is useful when user want the screen to display more contents.
-<br>[reference]https://phoenixnap.com/kb/less-command-in-linux#ftoc-heading-7
+<br>[source url](https://phoenixnap.com/kb/less-command-in-linux#ftoc-heading-7)
 <br>
 <br>
 
@@ -161,4 +161,4 @@ written_2/non-fiction/OUP/Berk/ch2.txt lines 2-7/248 2%
 Here, `written_2/non-fiction/OUP/Berk/ch2.txt lines 2-7/248 2%` is the information provided by the `-M` option.<br>
 
 `-M` option is useful when the user need to know the current progress of reading, and user is able to know the current line number by just looking the information on the bottom.
-<br>[reference]https://phoenixnap.com/kb/less-command-in-linux#ftoc-heading-7
+<br>[source url](https://phoenixnap.com/kb/less-command-in-linux#ftoc-heading-7)
